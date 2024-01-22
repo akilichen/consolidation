@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "operator",
+						"type": "uint64"
+					}
+				],
+				"name": "addNumber",
+				"outputs": [
+					{
+						"internalType": "uint64",
+						"name": "result",
+						"type": "uint64"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"hello-world.sol": "Helloworld"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hello-world.sol": {
+			"keccak256": "0x51058e2db6ab74c1c906085d4f6d03c4642ab58e1530be03d64b5ce0e6bd2ed7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://712fdb4458755fa4443e47997c22a7de0053c2f5424f2e52490cc8795aeb76fa",
+				"dweb:/ipfs/QmV41WDGLFXS4vbvTc4Xec4FTexPiFPokyaCLRnkmLw4hT"
+			]
+		}
+	},
+	"version": 1
+}
